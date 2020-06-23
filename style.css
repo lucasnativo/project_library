@@ -1,0 +1,152 @@
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+  background: #aaaaaa;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.frame {
+  /* border: 1px dotted black; */
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 1092px;
+}
+
+.book {
+  align-items: flex-end;
+  /* border: 1px solid blue; */
+  display: flex;
+  height: 160px;
+  flex-direction: column;
+  box-shadow: 0px 0px 7px 2px #000000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  overflow-wrap: anywhere;
+  width: 140px;
+  margin: 20px;
+  background: #757577;
+}
+
+.title {
+  flex: 3;
+  align-self: flex-start;
+  font-size: 20px;
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+
+.author {
+  flex: auto;
+  margin-left: 5px;
+  align-self: flex-start;
+}
+
+.rm.material-icons {
+  color: black;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 19px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 270px;
+  height: 160px;
+}
+
+.confirm {
+  float: right;
+  margin-top: 25px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  width: 230px;
+  height: 20px;
+  font-size: 19px;
+}
+
+input.empty {
+  background: #ec7d7d;
+}
+
+input.empty:focus {
+  background: white;
+}
+
+.read.material-icons.true {
+  color: #4bff00;
+}
+
+.read.material-icons {
+  color: white;
+  font-size: 35px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+#btnNew {
+  display: flex;
+  align-items: center;
+  background: #27a525;
+  font-size: 40px;
+  height: 160px;
+  margin: 20px;
+  width: 140px;
+  color: white;
+  box-shadow: 0px 0px 7px 2px #000000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
